@@ -4,3 +4,7 @@ env:
   mocha: true
   jasmine: true
 extends: 'airbnb-base'
+globals:
+  artifacts: false
+  contract: false
+
