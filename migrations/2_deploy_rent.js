@@ -4,6 +4,5 @@
 const rent = artifacts.require('Rent');
 
 module.exports = (deployer) => {
-  // Deploy it!
   deployer.deploy(rent);
 };

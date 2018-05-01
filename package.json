@@ -2,7 +2,8 @@
   "scripts": {
     "lint": "npm run es-lint && npm run sol-hint",
     "es-lint": "node_modules/.bin/eslint .",
-    "sol-hint": "node_modules/.bin/solhint contracts/**/*.sol"
+    "sol-hint": "node_modules/.bin/solhint contracts/**/*.sol",
+    "startClient": "node_modules/.bin/ganache-cli"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
